@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "backgroundColor": "#fbf2e5",
+    "shapeBg": "#f4dab3",
+    "title": "Tasty Snack & Fast food",
+    "description": "The flavour of something special",
+    "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/banner-one/one.png",
+    "altText": "one",
+    "buttonText": "Shop Now",
+    "buttonLink": "shop-left-sidebar-col-3.html",
+    "textColor": "#3d4750",
+    "hoverBgColor": "#6c7fd8",
+    "hoverTextColor": "#fff"
+  },
+  {
+    "id": 2,
+    "backgroundColor": "#ffe8ee",
+    "shapeBg": "#FFC6CD",
+    "title": "Fresh Fruits & Vegetables",
+    "description": "A healthy meal for every one",
+    "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/banner-one/two.png",
+    "altText": "two",
+    "buttonText": "Shop Now",
+    "buttonLink": "shop-left-sidebar-col-3.html",
+    "textColor": "#3d4750",
+    "hoverBgColor": "#6c7fd8",
+    "hoverTextColor": "#fff"
+  }
+]

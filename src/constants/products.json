@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "tag": "NEW",
+        "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/product/back-1.jpg",
+        "category": "Chocos",
+        "name": "Mixed Fruits Chocolates Pack",
+        "rating": 4,
+        "price": 25,
+        "originalPrice": 30,
+        "quantity": "1 Pack"
+    },
+    {
+        "id": 2,
+        "tag": "NEW",
+        "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/product/back-2.jpg",
+        "category": "Snacks",
+        "name": "Crunchy Almond Mix",
+        "rating": 5,
+        "price": 20,
+        "originalPrice": 25,
+        "quantity": "1 Pack"
+    },
+    {
+        "id": 3,
+        "tag": "HOT",
+        "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/product/back-3.jpg",
+        "category": "Sweets",
+        "name": "Caramel Almond Crunch",
+        "rating": 3,
+        "price": 15,
+        "originalPrice": 20,
+        "quantity": "2 Packs"
+    },
+    {
+        "id": 4,
+        "tag": "HOT",
+        "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/product/back-4.jpg",
+        "category": "Sweets",
+        "name": "Caramel Almond Crunch",
+        "rating": 3,
+        "price": 15,
+        "originalPrice": 20,
+        "quantity": "2 Packs"
+    }
+]

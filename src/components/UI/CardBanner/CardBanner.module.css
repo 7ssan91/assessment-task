@@ -1,0 +1,41 @@
+.banner-box:before {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: -200px;
+    top: -200px;
+    bottom: 0;
+    rotate: 40deg;
+    z-index: 0;
+    background-color: var(--tw-before-bg); /* Dynamic background color for before */
+
+}
+
+.banner-box:after {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    width: 150px;
+    height: 300px;
+    position: absolute;
+    right: -70px;
+    bottom: -100px;
+    rotate: 40deg;
+    z-index: 0;
+    background-color: var(--tw-after-bg);
+    /* Dynamic background color for before */
+
+}
+
+.banner-box:hover::before {
+    left: -210px;
+    top: -210px;
+}
+
+.banner-box:hover:after {
+    right: -80px;
+    bottom: -110px;
+}

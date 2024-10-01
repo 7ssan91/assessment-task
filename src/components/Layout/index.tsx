@@ -11,7 +11,7 @@ export const AppLayout: React.FC<{ showNav?: boolean, children: any }> = ({
         <>
             <AppErrorBoundary>{showNav && <AppHeader />}</AppErrorBoundary>
             <AppErrorBoundary>
-                <main className='fui-flex fui-w-full fui-flex-col fui-flex-nowrap'>
+                <main className='fui-flex fui-w-full bg-white fui-flex-col fui-flex-nowrap'>
                     {children}
                 </main>
             </AppErrorBoundary>

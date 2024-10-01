@@ -1,6 +1,6 @@
 import React from 'react';
-import cx from 'clsx';
 import styles from './Button.module.css';
+import { twMerge } from 'tailwind-merge';
 export type TStylesClass = {
     [key: string]: string;
 };
@@ -71,7 +71,7 @@ export const Button: React.FC<ButtonProps> = ({
 }) => {
     const cssClass =
         overrideClass ??
-        cx(
+        twMerge(
             styles.btn,
             styles[`btn-${buttonStyle}`],
             styles[`btn-size-${size}`],
@@ -90,7 +90,7 @@ export const Button: React.FC<ButtonProps> = ({
         >
             {isProcessing ? (
                 <div
-                    className={cx(
+                    className={twMerge(
                         'absolute z-10 flex h-full w-full items-center justify-center bg-white'
                     )}
                 >
