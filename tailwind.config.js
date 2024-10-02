@@ -68,7 +68,7 @@ module.exports = {
         900: '#3a3a3a',
       },
       brand: {
-        100: '#7ca40f',
+        100: '#6c7fd8',
         400: '#D5D2C5',
       },
       blue: {

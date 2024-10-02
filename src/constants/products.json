@@ -8,7 +8,10 @@
         "rating": 4,
         "price": 25,
         "originalPrice": 30,
-        "quantity": "1 Pack"
+        "quantity": "1 Pack",
+        "sku": "MFC-123",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."
+
     },
     {
         "id": 2,
@@ -19,7 +22,9 @@
         "rating": 5,
         "price": 20,
         "originalPrice": 25,
-        "quantity": "1 Pack"
+        "quantity": "1 Pack",
+        "sku": "SAM-123",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."
     },
     {
         "id": 3,
@@ -30,7 +35,9 @@
         "rating": 3,
         "price": 15,
         "originalPrice": 20,
-        "quantity": "2 Packs"
+        "quantity": "2 Packs",
+        "sku": "CAC-1234",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."
     },
     {
         "id": 4,
@@ -41,6 +48,8 @@
         "rating": 3,
         "price": 15,
         "originalPrice": 20,
-        "quantity": "2 Packs"
+        "quantity": "2 Packs",
+        "sku": "CAC-123456",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."
     }
 ]

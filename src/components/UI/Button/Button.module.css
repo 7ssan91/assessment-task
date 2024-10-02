@@ -5,7 +5,7 @@ button.btn,
 
 button.btn-primary,
 .btn-primary {
-  @apply  border border-navy-500 bg-navy-500 text-md text-white hover:bg-navy-700 disabled:cursor-not-allowed disabled:border-navy-400 disabled:bg-navy-400 disabled:bg-opacity-60 disabled:border-opacity-60;
+  @apply  border border-brand-100 bg-brand-100 text-md text-white hover:bg-white hover:text-brand-100 hover:transition-all rounded-md disabled:cursor-not-allowed disabled:border-brand-100 disabled:bg-brand-100 disabled:bg-opacity-60 disabled:border-opacity-60;
 }
 
 button.btn-secondary,

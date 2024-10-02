@@ -10,7 +10,8 @@
     bottom: 0;
     rotate: 40deg;
     z-index: 0;
-    background-color: var(--tw-before-bg); /* Dynamic background color for before */
+    /* Dynamic background color for before that returns from product data  */
+    background-color: var(--tw-before-bg);
 
 }
 
@@ -25,8 +26,8 @@
     bottom: -100px;
     rotate: 40deg;
     z-index: 0;
+    /* Dynamic background color for after that returns from product data */
     background-color: var(--tw-after-bg);
-    /* Dynamic background color for before */
 
 }
 
